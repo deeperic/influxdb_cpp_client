@@ -12,6 +12,8 @@ Writing one point:
 ```
 #include "influxdb_cpp_client/InfluxDBClient.h"
 
+using namespace nc;
+
 //create the client
 auto client = std::make_unique<InfluxDBClient>("localhost", 8086, "token", "org");
 
@@ -30,6 +32,8 @@ Writing multiple points:
 
 ```
 #include "influxdb_cpp_client/InfluxDBClient.h"
+
+using namespace nc;
 
 //create the client
 auto client = std::make_unique<InfluxDBClient>("localhost", 8086, "token", "org");
