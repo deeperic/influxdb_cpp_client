@@ -52,6 +52,16 @@ client->Write("bucket_name", points);
 
 ```
 
+## Building the example
+
+```
+git clone git@github.com:deeperic/influxdb_cpp_client.git
+cd influxdb_cpp_client
+mkdir build
+cd build
+cmake ..
+make
+```
 
 ## Installation
 
